@@ -8,7 +8,10 @@ _(Not kidding. Where's my headphones? 🔬)_
 
 
 
-https://user-images.githubusercontent.com/74447462/140613627-36018ae4-2eee-4b80-a1b8-e22f1a36af47.mp4
+
+https://user-images.githubusercontent.com/74447462/140619228-67e0cd2c-95ac-4755-a105-c32c63d07d04.mp4
+
+
 
 
 ---
@@ -23,6 +26,9 @@ https://user-images.githubusercontent.com/74447462/140613627-36018ae4-2eee-4b80-
 	- .currentTime ; .duration
 	- played;paused;
 	- (event) "timeupdate"
+- Start using **Hankbranke** to compress/encode video (because gitHub require video < 10Mb)
+- Use Audio Library from **Youtube**
+- Use font: mono space to align "|" character between lines
 
 
 ![mindmap](https://user-images.githubusercontent.com/74447462/140616337-e27b4502-18c4-449a-8ce7-a976c053057a.png)
