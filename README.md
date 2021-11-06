@@ -16,12 +16,16 @@ https://user-images.githubusercontent.com/74447462/140613627-36018ae4-2eee-4b80-
 
 
 
+
 ## What I've tried this time
 - read docs MDN about media
 - try some properties, method:
 	- .currentTime ; .duration
 	- played;paused;
 	- (event) "timeupdate"
+
+
+![mindmap](https://user-images.githubusercontent.com/74447462/140616337-e27b4502-18c4-449a-8ce7-a976c053057a.png)
 
 
 
