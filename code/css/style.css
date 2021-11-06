@@ -1,0 +1,115 @@
+/* background: #666 #333 #000 */
+/* text: #dc3545 #28a745 #fff #101010 */
+/* icon pause: name="pause"*/
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+:root {
+  --credit: 0.4rem;
+  --screen: 28rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #666;
+  position: relative;
+
+  font-family: 'Questrial', 'sans-serif';
+  font-size: 1.6rem;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.credit {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 1rem;
+  width: 29rem;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--credit);
+}
+
+.h1 {
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  padding: 1.5rem 0;
+  color: #fff;
+}
+
+.video {
+  /* height: 80%; */
+  width: var(--screen);
+  border-radius: 15px 15px 0 0;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5),
+    transparent 15%
+  ) !important;
+  cursor: pointer;
+}
+
+/* --- control bar ------ */
+.control {
+  display: flex;
+  width: var(--screen);
+  align-items: center;
+  background-color: #333;
+  padding: 0 0.5rem;
+  border-radius: 0 0 15px 15px;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+ion-icon {
+  font-size: 3rem;
+}
+
+.control > *:not(.time) {
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+.control > *:not(.time):hover {
+  opacity: 0.8;
+}
+
+.btn-play ion-icon {
+  color: #28a746;
+}
+
+.btn-pause ion-icon {
+  color: #fff;
+}
+
+.btn-stop ion-icon {
+  color: #dc3546;
+}
+
+.progress-bar {
+  background-color: blue;
+  flex-grow: 1;
+  margin: 0 1rem;
+  opacity: 0.4;
+  height: 70%;
+}
+
+.time {
+  color: #fff;
+}
